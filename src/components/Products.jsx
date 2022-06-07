@@ -30,7 +30,7 @@ console.log(data)
         axios.get(`https://my-json-server-masai.herokuapp.com/products`,{
             params:{
                 _page:page,
-                _limit:16,
+                _limit:6,
                 _sort:s,
                 _order:o
             }
