@@ -11,9 +11,9 @@ export const AllRoutes=()=>{
         <div>
             <Navbar/>
          <Routes>
-         <Route path="/" element={<Home/>}/>
+         <Route path="/" element={<Product/>}/>
          <Route path="/about" element={<About/>}/>
-         <Route path="/product" element={<Product/>}/>
+         <Route path="/product" element={<Home/>}/>
          </Routes>
     
           
